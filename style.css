@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:wght@300&family=Roboto:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins:wght@300;400&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;600&family=Poppins:wght@300;400&family=Roboto:wght@300;400&display=swap');
 
 html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  width: 100vw;
   height: 100vh;
 }
 
@@ -126,4 +126,642 @@ html {
 
 ul {
   list-style-type: none;
+}
+
+/* my recent work page */
+
+.second-page {
+  width: 328px;
+  margin-top: 130px;
+  margin-left: 23px;
+}
+
+.second-heading {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #1c1a19;
+  text-align: center;
+}
+
+/* second page first image */
+
+.second-background {
+  row-gap: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 74px;
+}
+
+/* multi post stories section  */
+
+.recent-work-heading {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #091e42;
+  margin-top: 18px;
+}
+
+.recent-work-para {
+  letter-spacing: 0.4px;
+  margin-top: -13px;
+  width: 333px;
+  height: 147px;
+  font-family: 'inter', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091e42;
+  font-style: normal;
+}
+
+/* languages cards */
+
+.languages {
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+  border: #091e42;
+  box-sizing: content-box;
+  justify-content: space-evenly;
+}
+
+.item1 {
+  font-family: 'inter', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 38px;
+  margin-top: 2px;
+  color: #091e42;
+  margin-left: -279px;
+  width: 49px;
+  height: 40px;
+  text-align: center;
+  position: absolute;
+  border: 1px solid #8993a4;
+}
+
+.item2 {
+  font-family: 'inter', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 38px;
+  margin-top: 2px;
+  color: #091e42;
+  margin-left: -151px;
+  width: 56px;
+  height: 40px;
+  text-align: center;
+  position: absolute;
+  border: 1px solid #8993a4;
+}
+
+.item3 {
+  font-family: 'inter', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 38px;
+  margin-top: 2px;
+  color: #091e42;
+  margin-left: 27px;
+  width: 95px;
+  height: 40px;
+  text-align: center;
+  position: absolute;
+  border: 1px solid #8993a4;
+}
+
+.item4 {
+  font-family: 'inter', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 38px;
+  margin-top: 2px;
+  color: #091e42;
+  margin-left: 207px;
+  width: 61px;
+  height: 40px;
+  text-align: center;
+  position: absolute;
+  border: 1px solid #8993a4;
+}
+
+/* recent work submit */
+button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 124px;
+  margin-top: 27px;
+  height: 48px;
+  border: none;
+  background: #ff6b00;
+  border-color: #ff6b00;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #fff;
+  border: 1px solid #ff6b00;
+  padding: 5px;
+}
+
+.btn:active {
+  background-color: #ff6b00;
+  color: #f4f5f7;
+  transform: scale(0.98);
+}
+
+.btn:disabled {
+  background-color: #fff;
+}
+
+.button-text {
+  width: 100px;
+  height: 24px;
+  font-family: 'inter', sans-serif;
+  font-style: normal;
+  padding: 2px;
+  font-weight: 300;
+  font-size: 17px;
+  color: #fff;
+  line-height: 24px;
+}
+
+.button-text:hover {
+  color: #ff6b00;
+  font-weight: 600;
+}
+
+.button-text:active {
+  color: #fff;
+  font-weight: 600;
+  transform: scale(0.98);
+}
+
+.button-text:disabled {
+  color: #1c1a19;
+}
+
+/* professional art cards */
+
+.professional-art {
+  display: grid;
+  grid-column: 1;
+  justify-content: start;
+  align-content: space-evenly;
+}
+
+.professional-art-text {
+  width: 327px;
+  margin-top: 20px;
+  padding-left: 14px;
+  padding-top: 77px;
+}
+
+.professional-text {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.pro-para-text {
+  width: 295px;
+  height: 101px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+/* skill buttons in professional section */
+
+.card1 {
+  font-family: 'inter', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 38px;
+  margin-top: -21px;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.24);
+  margin-left: -39px;
+  width: 56px;
+  height: 40px;
+  text-align: center;
+  position: absolute;
+  border: none;
+}
+
+.card2 {
+  font-family: 'inter', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 38px;
+  margin-top: -21px;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.24);
+  margin-left: 31px;
+  width: 95px;
+  height: 40px;
+  text-align: center;
+  position: absolute;
+  border: none;
+}
+
+.card3 {
+  font-family: 'inter', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 38px;
+  margin-top: -21px;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.24);
+  margin-left: 140px;
+  width: 61px;
+  height: 40px;
+  text-align: center;
+  position: absolute;
+  border: none;
+}
+
+/* see project button in professional skill */
+
+.button2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 327px;
+  margin-left: -14px;
+  margin-top: 66px;
+  height: 48px;
+  border: none;
+  background: #ff6b00;
+}
+
+.button-text2 {
+  width: 290px;
+  height: 24px;
+  font-family: 'inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  color: #fff;
+  padding: 14px;
+  line-height: 24px;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+}
+
+.button2:hover {
+  background-color: #fff;
+  border: 1px solid #ff6b00;
+  padding: 5px;
+}
+
+.button2:active {
+  background-color: #ff6b00;
+  color: #f4f5f7;
+  transform: scale(0.98);
+}
+
+.button2:disabled {
+  background-color: #fff;
+}
+
+.button-text2:hover {
+  color: #ff6b00;
+  font-weight: 600;
+}
+
+.button-text2:active {
+  color: #fff;
+  font-weight: 600;
+  transform: scale(0.98);
+}
+
+.button-text2:disabled {
+  color: #1c1a19;
+}
+
+/* second professional skill card  */
+
+#pro-images-1 {
+  position: relative;
+  left: 22px;
+  right: 0;
+  width: 327px;
+  height: 386px;
+  top: 12px;
+  bottom: 0;
+  background-image: url(./images/probackground.png);
+  background-repeat: no-repeat;
+}
+
+#pro-images-2 {
+  position: relative;
+  left: 22px;
+  right: 0;
+  width: 327px;
+  height: 386px;
+  top: 12px;
+  bottom: 0;
+  background-image: url(./images/probackground.png);
+  background-repeat: no-repeat;
+}
+
+/* third professional skill card  */
+
+#pro-images-3 {
+  position: relative;
+  left: 22px;
+  right: 0;
+  width: 327px;
+  height: 386px;
+  top: 12px;
+  bottom: 0;
+  background-image: url(./images/probackground.png);
+  background-repeat: no-repeat;
+}
+
+/* fourth professional skill card  */
+
+#pro-images-4 {
+  position: relative;
+  left: 22px;
+  right: 0;
+  width: 327px;
+  height: 386px;
+  top: 12px;
+  bottom: 0;
+  background-image: url(./images/probackground.png);
+  background-repeat: no-repeat;
+}
+
+/* fifth professional skill card  */
+
+#pro-images-5 {
+  position: relative;
+  left: 22px;
+  right: 0;
+  width: 327px;
+  height: 386px;
+  top: 12px;
+  bottom: 0;
+  background-image: url(./images/probackground.png);
+  background-repeat: no-repeat;
+}
+
+/* sixth professional skill card  */
+
+#pro-images-6 {
+  position: relative;
+  left: 22px;
+  right: 0;
+  width: 327px;
+  height: 432px;
+  top: 12px;
+  bottom: 0;
+  background-image: url(./images/probackground.png);
+  background-repeat: no-repeat;
+}
+
+/* about me section */
+
+.about-me {
+  position: absolute;
+  left: -2px;
+  width: 377px;
+  padding-right: -171px;
+  height: 2038px;
+  top: 4406px;
+  background: #1c1a19;
+  background-image: url(./images/group.png);
+  background-repeat: no-repeat;
+  background-position-x: 217px;
+  background-position-y: 392px;
+}
+
+.about-me-text {
+  width: 327px;
+  height: 79px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  padding-left: 25px;
+  padding-top: 30px;
+  font-weight: 400;
+  font-size: 72px;
+  margin-bottom: 0;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+}
+
+.about-me-para {
+  width: 327px;
+  height: 148px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  padding-top: 12px;
+  padding-left: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #f4f5f7;
+}
+
+.button3 {
+  font-family: 'inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  display: flex;
+  color: #fff;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 161px;
+  margin-left: 24px;
+  height: 48px;
+  margin-top: 27px;
+  border: none;
+  background: #ff6b00;
+}
+
+.button3:hover {
+  color: #ff6b00;
+  background-color: #fff;
+  border: 2px solid #ff6b00;
+  padding: 12px;
+}
+
+.button3:active {
+  background-color: #ff6b00;
+  color: #f4f5f7;
+  transform: scale(0.98);
+}
+
+.button3:disabled {
+  background-color: #fff;
+}
+
+.button-text3:hover {
+  color: #ff6b00;
+  font-weight: 600;
+}
+
+.button-text3:active {
+  color: #fff;
+  font-weight: 600;
+  transform: scale(0.98);
+}
+
+.button-text3:disabled {
+  color: #1c1a19;
+}
+
+/* background image for about-me-page */
+
+.about-me-background {
+  width: 141px;
+  top: -63px;
+  position: relative;
+  left: 236px;
+}
+
+.line {
+  width: 320px;
+  position: relative;
+  top: 224px;
+}
+
+/* skills heading */
+
+.about-me-section {
+  position: relative;
+  top: 330px;
+  left: -15px;
+}
+
+.about-heading-skills {
+  height: 33px;
+  font-family: 'Inter', sans-serif;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: 25px;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+/* skills text */
+
+.about-head-text-1 {
+  height: 56px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 129px;
+  margin-left: -22px;
+  display: flex;
+  color: #fff;
+  gap: 12px;
+  justify-content: space-around;
+}
+
+.about-head-text-2 {
+  height: 56px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 129px;
+  margin-left: -22px;
+  display: flex;
+  color: #fff;
+  gap: 12px;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.about-head-text-3 {
+  height: 56px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 129px;
+  margin-left: -22px;
+  display: flex;
+  color: #fff;
+  gap: 12px;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.about-head-text-4 {
+  height: 97px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 129px;
+  margin-left: -22px;
+  display: flex;
+  color: #fff;
+  gap: 12px;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.about-head-text-5 {
+  height: 56px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 129px;
+  margin-left: -22px;
+  display: flex;
+  color: #fff;
+  gap: 12px;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* skills logo */
+
+.diamond-img {
+  position: absolute;
+  left: 91px;
+}
+
+.square-img {
+  position: absolute;
+  left: 78px;
+}
+
+.circle-img {
+  position: absolute;
+  left: 133px;
 }
