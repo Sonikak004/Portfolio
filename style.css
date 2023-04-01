@@ -21,6 +21,8 @@ html {
   display: flex;
   justify-content: space-between;
   background: #3c3a39;
+  top: 0;
+  left: -2px;
 }
 
 .heading-text {
@@ -48,13 +50,14 @@ html {
 /* body for main page */
 
 .main-page {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   background: #1c1a19;
   position: absolute;
   width: 375px;
   height: 595px;
-  left: 10px;
-  top: 100px;
+  left: 0;
+  top: 92px;
 }
 
 .main-text {
