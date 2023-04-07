@@ -765,3 +765,137 @@ button {
   position: absolute;
   left: 133px;
 }
+
+/* contact me form */
+
+.contact-me {
+  display: flex;
+  padding-top: 315px;
+  justify-content: center;
+}
+
+.form-items-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-me-para {
+  width: 321px;
+  height: 216px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #172b4d;
+  padding-top: 217px;
+  padding-left: 18px;
+  font-size: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  line-height: 44px;
+  text-align: center;
+}
+
+input,
+textarea {
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+}
+
+input {
+  color: #979493;
+  width: 287px;
+  position: relative;
+  left: -25px;
+  top: 47px;
+  padding: 26px;
+  margin-bottom: 5px;
+}
+
+.name input:invalid {
+  border-color: rgb(253, 6, 6);
+}
+
+.text-area {
+  color: #3c3a39;
+  background-color: #fbf8f7;
+  width: 314px;
+  padding-left: 21px;
+  margin-top: 77px;
+  margin-bottom: 77px;
+  outline: none;
+  position: absolute;
+  left: 19px;
+  right: 12px;
+  top: 2570px;
+  bottom: -794px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.text-area::placeholder {
+  color: #3c3a39;
+}
+
+.button4 {
+  display: flex;
+  flex-direction: row;
+  font-family: "Inter", sans-serif;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  font-weight: 600;
+  padding: 25px;
+  width: 161px;
+  margin-left: 77px;
+  padding-left: 28px;
+  height: 48px;
+  margin-top: 275px;
+  background: #ff6b00;
+}
+
+.button4:hover {
+  background-color: #fff;
+  border: 2px solid #ff6b00;
+  padding: 23px;
+  color: #ff6b00;
+  font-weight: 600;
+}
+
+.button4:active {
+  background-color: #ff6b00;
+  color: #f4f5f7;
+  transform: scale(0.98);
+  font-weight: 600;
+}
+
+.button4:disabled {
+  background-color: #fff;
+  color: #1c1a19;
+}
+
+/* bottom dark social media Icons */
+
+.social-media-dark {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 145px;
+  margin-left: 98px;
+}
+
+/* footer line at the end */
+
+.footer-line {
+  width: 147px;
+  background-color: #0d151e;
+  height: 4px;
+  size: 110px;
+  top: -3px;
+  border-radius: 10px;
+  position: relative;
+  left: 11px;
+}
