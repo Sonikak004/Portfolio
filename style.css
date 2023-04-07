@@ -821,8 +821,8 @@ input {
   background-color: #fbf8f7;
   width: 314px;
   padding-left: 21px;
-  margin-top: 77px;
-  margin-bottom: 77px;
+  margin-top: 44px;
+  margin-bottom: 121px;
   outline: none;
   position: absolute;
   left: 19px;
@@ -853,7 +853,7 @@ input {
   margin-left: 77px;
   padding-left: 39px;
   height: 48px;
-  margin-top: 275px;
+  margin-top: 232px;
   background: #ff6b00;
 }
 
@@ -883,7 +883,7 @@ input {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 145px;
+  margin-top: 94px;
   margin-left: 98px;
 }
 
