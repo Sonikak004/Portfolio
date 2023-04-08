@@ -1035,15 +1035,15 @@ footer {
   }
 
   @keyframes myAnim {
-      0% {
-        opacity: 0;
-        transform: translateX(-250px);
-      }
-    
-      100% {
-        opacity: 1;
-        transform: translateX(0);
-      }
+    0% {
+      opacity: 0;
+      transform: translateX(-250px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
   }
 
   #navigation-bar {
@@ -1198,23 +1198,23 @@ footer {
     0% {
       transform: translate(0);
     }
-  
+
     20% {
       transform: translate(-2px, 2px);
     }
-  
+
     40% {
       transform: translate(-2px, -2px);
     }
-  
+
     60% {
       transform: translate(2px, 2px);
     }
-  
+
     80% {
       transform: translate(2px, -2px);
     }
-  
+
     100% {
       transform: translate(0);
     }
@@ -1298,7 +1298,7 @@ footer {
 
   .button2:hover {
     transition: 1s ease-in-out;
-    background: #ffffff;
+    background: #fff;
     outline: #ff6b00;
   }
 
