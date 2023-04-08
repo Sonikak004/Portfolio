@@ -8,112 +8,138 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <div class="wrapper">
+
   <!-- heading -->
+ <div class="topnav-bar">
   <header class="heading">
     
     <a href="#" class="heading-text">Sonika Kumar</a>
-    <nav id="navigation-bar">
+    <div>
+    <nav id="desktop-nav-bar"> 
+      <ul class="desktop-items">
+        <li> <a class="nav1" href="#">Portfolio</a></li>
+        <li> <a class="nav2" href="#">About</a></li>
+        <li> <a class="nav3" href="#">Contact</a></li>
+        <li><a href="#">
+          <img class="nav-icon" src="./images/message.png" alt="Message">
+            </a>
+        </li>
+      </ul>
+    </div>
+    </nav>
+    <nav id="navigation-bar nav-bar">
       <div class="items"></div>
       <div class="items"></div>
       <div class="items"></div>
     </nav>
   </header>
-
-  <section>
+  </div>
 
   <!-- page one body -->
 
-  <section id="background-main" class="main-page">
 
+  <section id="background-main" class="main-page">
+  <div>
+    <div class="main-page-text">
     <h1 class="main-text">Hey There. I'm sonika</h1>
     <h2 class="profession">I'am a Software Developer</h2>
     <p class="main-description">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
       don't hestiate to contact me.</p>
-
+    </div>
   <!-- social-media Icons -->
-
+     <div class="social-div">
+ 
       <ul class="social-media">
 
       <li>
-        <a class="social-icons" href="http://github.com/sonikak004">
+        <a class="social-icons sitop1" href="http://github.com/sonikak004">
       <img class="soc-ico" src="./images/icon0.png" alt="github">
         </a>
       </li>
 
       <li> 
-        <a class="social-icons" href="http://linkedin.com/sonikak004">
+        <a class="social-icons sitop2" href="http://linkedin.com/sonikak004">
       <img class="soc-ico" src="./images/icon1.png" alt="linkedin2" >
         </a>
       </li>
 
       <li>
-        <a class="social-icons" href="#">
+        <a class="social-icons sitop3" href="#">
       <img class="soc-ico" src="./images/icon2.png" alt="V" >
         </a>
       </li>
 
       <li> 
-        <a class="social-icons" href="http://twitter.com/sonikakumar">
+        <a class="social-icons sitop4" href="http://twitter.com/sonikakumar">
       <img class="soc-ico" src="./images/icon3.png" alt="twitter">
         </a>
       </li>
 
       <li>
-        <a class="social-icons" href="#">
+        <a class="social-icons sitop5" href="#">
       <img class="soc-ico" src="./images/icon4.png" alt="M">
          </a>
       </li>
     </ul>
+  </div>
+  </div>
+ 
     <!-- my recent works page -->
 
   <section class="second-page">
-    
+    <div class="recent-div">
+    <div class="second-page-div">
     <h2 class="second-heading">My Recent Works</h2>
-    <hr>
-
+    <hr class="page2-line">
+  </div>
     <!-- image  one for second page -->
 
     <a class="second-background">
-      <img src="./images/second-background.png" alt="background-image">
+      <img class="background2" src="./images/second-background.png" alt="background-image">
     </a>
 
     <!-- multi post stories section -->
+    <div class="page2-para">
+    <div class="recent-works-div">
 
     <h3 class="recent-work-heading">Multi-Post Stories</h3>
 
-    <p class="recent-work-para">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-
+    <p class="recent-work-para">A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+    
+    </div>
     <!-- languages cards  -->
 
-    <div>
       <ul class="languages">
         <li class="item1">css</li>
         <li class="item2">html</li>
         <li class="item3">bootsrap</li>
         <li class="item4">Ruby</li>
       </ul>
-    </div>
-
+    
     <!-- recent work submit button -->
 
     <button class="btn" type="button">
       <a class="button-text">See Project</a>      
     </button>
-  </section> 
+  </div>
+</div>
 
      <!-- professional art cards section -->
-
+     
      <section class="professional-art">
+      <div class="pro-div">
       <!-- First professional skill card -->
 
       <div id="pro-images-1" class="professional-art-text"> 
-        <h2 class="professional-text"> Profesional Art Printing Data </h2>
-        <p class="pro-para-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+        <h2 class="professional-text pro-text"> Profesional Art Printing Data </h2>
+        <p class="pro-para-text pro-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
         <!-- skill button in professional sectiion -->
       <ul>
-        <li class="card1">html</li>
-        <li class="card2">bootsrap</li>
-        <li class="card3">Ruby</li>
+        <li class="card1 car1">html</li>
+        <li class="card2 car1">bootsrap</li>
+        <li class="card3 car1">Ruby</li>
       </ul> 
 
       <button class="button2" type="button">
@@ -126,6 +152,7 @@
 
       <div id="pro-images-2" class="professional-art-text"> 
         <h2 class="professional-text"> Profesional Art Printing Data </h2> 
+        <h2 class="pro-desktop">Data Dashboard Healthcare</h2>
         <p class="pro-para-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
         <!-- skill button in professional sectiion -->
       <ul>
@@ -134,7 +161,7 @@
         <li class="card3">Ruby</li>
       </ul> 
 
-      <button class="button2" type="button">
+      <button class="button2 buttontwo" type="button">
         <a class="button-text2" href="#"> See Project </a>  
     </button> 
       </div>
@@ -143,7 +170,8 @@
       <!-- third professional skill card -->
 
       <div id="pro-images-3" class="professional-art-text"> 
-        <h2 class="professional-text"> Profesional Art Printing Data </h2> 
+        <h2 class="professional-text"> Profesional Art Printing Data </h2>
+        <h2 class="pro-desktop">Website Portfolio</h2> 
         <p class="pro-para-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
         <!-- skill button in professional sectiion -->
       <ul>
@@ -152,7 +180,7 @@
         <li class="card3">Ruby</li>
       </ul> 
 
-      <button class="button2" type="button">
+      <button class="button2 buttontwo" type="button">
         <a class="button-text2" href="#"> See Project </a>  
     </button> 
       </div>
@@ -161,7 +189,8 @@
       <!-- fourth professional skill card -->
 
       <div id="pro-images-4" class="professional-art-text">
-        <h2 class="professional-text"> Profesional Art Printing Data </h2> 
+        <h2 class="professional-text-4"> Profesional Art Printing Data </h2> 
+        <!-- <h2 class="professional-text">Data Dashboard Healthcare</h2> -->
         <p class="pro-para-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
         <!-- skill button in professional sectiion -->
       <ul>
@@ -170,7 +199,7 @@
         <li class="card3">Ruby</li>
       </ul> 
 
-      <button class="button2" type="button">
+      <button class="button2 buttontwo" type="button">
         <a class="button-text2" href="#"> See Project </a>  
     </button> 
       </div>
@@ -179,7 +208,8 @@
       <!-- fifth professional skill card -->
 
       <div id="pro-images-5" class="professional-art-text"> 
-        <h2 class="professional-text"> Profesional Art Printing Data </h2> 
+        <h2 class="professional-text"> Profesional Art Printing Data </h2>
+        <h2 class="pro-desktop">Data Dashboard Healthcare</h2> 
         <p class="pro-para-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
         <!-- skill button in professional sectiion -->
       <ul>
@@ -188,7 +218,7 @@
         <li class="card3">Ruby</li>
       </ul> 
 
-      <button class="button2" type="button">
+      <button class="button2 buttontwo" type="button">
         <a class="button-text2" href="#"> See Project </a>  
     </button> 
       </div>
@@ -198,6 +228,7 @@
 
       <div id="pro-images-6" class="professional-art-text"> 
         <h2 class="professional-text"> Profesional Art Printing Data </h2> 
+        <h2 class="pro-desktop">Website Portfolio</h2>
         <p class="pro-para-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
         <!-- skill buttons in professional sectiion -->
       <ul>
@@ -206,15 +237,19 @@
         <li class="card3">Ruby</li>
       </ul> 
 
-      <button class="button2" type="button">
+      <button class="button2 buttontwo" type="button">
         <a class="button-text2" href="#"> See Project </a>  
     </button> 
       </div>
+    </div>
+  
     </section>
+  </section> 
 
       <!-- about me section -->
 
      <section class="about-me">
+      <div class="about-me-div">
       <h2 class="about-me-text">About me</h2>
       <p class="about-me-para">Hello I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hestiate to contact me.</p>
 
@@ -222,17 +257,17 @@
       <button class="button3" type="button">
          Get My Resume   
       </button> 
-
+    </div>
      <hr class="line">
      <br>
      <!-- languages skill -->
      <ul class="about-me-section">
 
-     <li class="about-heading-skills"> <img src="./images/diamond.png" alt="diamond logo" class="diamond-img">
+     <li class="about-heading-skills abt-head1"> <img  src="./images/diamond.png" alt="diamond logo" class="diamond-img">
      Languages
      </li>
 
-     <ul>
+     <ul class="about-me-skills1">
 
       <li class="about-head-text-1">Javascript</li>
       <li class="about-head-text-2">Ruby</li>
@@ -242,34 +277,31 @@
       <br> <br>
     </ul>
       <!-- framework skill -->
-      <li class="about-heading-skills"> <img src="./images/square.png" alt="square logo" class="square-img"> 
+      <li class="about-heading-skills abt-head2"> <img class="abt-sqr" src="./images/square.png" alt="square logo" class="square-img"> 
       Framework
       </li>
-      <ul>
-        <li class="about-head-text-1">Bootstrap</li>
-        <li class="about-head-text-2">Ruby on Rails</li>
-        <li class="about-head-text-3">RSPec</li>
-        <li class="about-head-text-4">CapyBara</li>
-        <li class="about-head-text-5">Selenium</li>
+      <ul class="about-me-skills2">
+        <li class="about-head-text-1 skill-1">Bootstrap</li>
+        <li class="about-head-text-2 skill-2">Ruby on Rails</li>
+        <li class="about-head-text-3 skill-3">RSPec</li>
+        <li class="about-head-text-4 skill-4">CapyBara</li>
+        <li class="about-head-text-5 skill-5">Selenium</li>
 
         <br> <br>
       </ul>
         <!-- skills list -->
-        <li class="about-heading-skills"> <img src="./images/circle.png" alt="circle logo" class="circle-img"> 
+        <li class="about-heading-skills abt-head3"> <img src="./images/circle.png" alt="circle logo" class="circle-img"> 
         Skills
         </li>
-       <ul>
+       <ul class="about-me-skills3">
           <li class="about-head-text-1">Codekit</li>
-          <li class="about-head-text-2">Github </li>
-          <li class="about-head-text-3">Codepen</li>
-          <li class="about-head-text-4">Gitlab </li>
-          <li class="about-head-text-5">Terminal </li>
+          <li class="about-head-text-2 skill3-1">Github </li>
+          <li class="about-head-text-3 skill3-2">Codepen</li>
+          <li class="about-head-text-4 skill3-1">Gitlab </li>
+          <li class="about-head-text-5 skill3-5">Terminal </li>
         </ul>
       </ul>
-
-      <!-- contact me form -->
- 
-      <footer>
+      <footer class="footer-bottom">
         <div class="contact-me">
           <h2 class="contact-me-para">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
         </div>
@@ -277,9 +309,13 @@
         <form method="POST" action="https://formspree.io/f/xzbqpdra">
           <ul class="form-items-list">
 
+
             <li class="no-outline">
               <input class="Name" type="text" name="name" placeholder="Full Name" maxlength="30" required>
             </li>   
+            <li class="last-name">
+              <input type="text" class="lname" name="last name" placeholder="Last Name" maxlength="30">
+            </li>
 
             <li class="no-outline">
               <input class="email" type="email" name="email" placeholder="Email Address" required>
@@ -287,8 +323,11 @@
 
             <li>
               <textarea class="text-area" name="text-area" placeholder="Enter Text Here" cols="30" rows="4" maxlength="500" required></textarea>
-            </li>   
-              
+            </li>
+
+            <li> <textarea  class="text-area-desktop" name="text-area" placeholder="Hello Mariane. I would like to get in touch with you..." cols="30" rows="4" maxlength="500"></textarea>
+            </li>  
+                
          <!-- get in touch button -->
           <li>
            <button type="submit" class="button4">Get In Touch</button></li>
@@ -319,9 +358,10 @@
             <img src="./images/darkicon-5.png" alt="M">
             </a>
             </div>
-            <hr class="footer-line">
+            <hr class="footer-line foot">
         </footer>
    </section>
-</section>
+
+</div>
 </body>
 </html>
