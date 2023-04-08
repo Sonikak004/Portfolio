@@ -1030,6 +1030,22 @@ footer {
     font-family: 'Inter', sans-serif;
   }
 
+  .heading-text:hover {
+    animation: myAnim 1s ease 0s 1 normal forwards;
+  }
+
+  @keyframes myAnim {
+      0% {
+        opacity: 0;
+        transform: translateX(-250px);
+      }
+    
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+  }
+
   #navigation-bar {
     display: none;
   }
@@ -1167,7 +1183,7 @@ footer {
 
   .page2-line {
     top: -128px;
-    left: 372px;
+    left: 408px;
     width: 68%;
     position: relative;
   }
@@ -1175,6 +1191,33 @@ footer {
   .background2 {
     width: 524px;
     height: 400px;
+    animation: myAnim 5s ease 0s 1 normal forwards;
+  }
+
+  @keyframes myAnim {
+    0% {
+      transform: translate(0);
+    }
+  
+    20% {
+      transform: translate(-2px, 2px);
+    }
+  
+    40% {
+      transform: translate(-2px, -2px);
+    }
+  
+    60% {
+      transform: translate(2px, 2px);
+    }
+  
+    80% {
+      transform: translate(2px, -2px);
+    }
+  
+    100% {
+      transform: translate(0);
+    }
   }
 
   .second-background {
@@ -1250,6 +1293,13 @@ footer {
     margin-left: 5px;
     width: 325px;
     height: 52px;
+    transition: 1s ease-in-out;
+  }
+
+  .button2:hover {
+    transition: 1s ease-in-out;
+    background: #ffffff;
+    outline: #ff6b00;
   }
 
   .buttontwo {
@@ -1285,6 +1335,7 @@ footer {
     position: relative;
     background: #ff6b00;
     opacity: 0;
+    transition: 1s ease-in-out;
   }
 
   .hovbutt {
@@ -1305,6 +1356,7 @@ footer {
     background-color: #fdfdfd;
     border: 1px solid #ff6b00;
     padding: 5px;
+    transition: 1s ease-in-out;
   }
 
   .hoverbutton:active {
