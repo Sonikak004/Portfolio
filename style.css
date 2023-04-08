@@ -674,6 +674,14 @@ button {
   color: #1c1a19;
 }
 
+.hoverbutton {
+  background: transparent;
+}
+
+.hovbutt {
+  color: transparent;
+}
+
 /* background image for about-me-page */
 
 .about-me-background {
@@ -1151,7 +1159,7 @@ footer {
     width: 100%;
     margin-top: 181px;
     position: relative;
-    margin-left: 175px;
+    margin-left: 266px;
     top: -70px;
     display: flex;
     color: #091e42;
@@ -1159,19 +1167,19 @@ footer {
 
   .page2-line {
     top: -128px;
-    left: 358px;
+    left: 372px;
     width: 68%;
     position: relative;
   }
 
   .background2 {
-    width: 491px;
-    height: 499px;
+    width: 524px;
+    height: 400px;
   }
 
   .second-background {
     position: relative;
-    left: 313px;
+    left: 362px;
     width: 491px;
     top: -93px;
     display: flex;
@@ -1181,7 +1189,7 @@ footer {
   .page2-para {
     position: relative;
     margin-left: 835px;
-    top: -621px;
+    top: -541px;
     display: flex;
     width: 43%;
     flex-direction: column;
@@ -1202,6 +1210,7 @@ footer {
 
   .recent-works-div {
     width: 100%;
+    margin-left: 83px;
   }
 
   .recent-div {
@@ -1209,13 +1218,14 @@ footer {
   }
 
   .languages {
-    padding-top: 28px;
+    padding-top: 0;
     width: 353px;
-    margin-left: -19px;
+    margin-left: 60px;
   }
 
   button {
     margin-top: 15px;
+    margin-left: 84px;
   }
 
   .pro-text {
@@ -1266,6 +1276,69 @@ footer {
     background-image: url(./images/page2card2.png);
   }
 
+  #pro-images-3 .hoverbutton:hover {  
+    width: 330px;
+  }
+
+  #pro-images-4 .hoverbutton:hover {
+    width: 331px;
+  }
+
+  #pro-images-5 .hoverbutton:hover {
+    margin-left: -14px;
+    margin-top: -20px;
+    height: 65px;
+    width: 330px;
+  }
+
+  #pro-images-6 .hoverbutton:hover {
+    margin-top: -26px;
+    height: 65px;
+    width: 331px;
+  }
+  }
+
+  .hoverbutton {
+    display: flex;
+    width: 327px;
+    margin-left: -14px;
+    margin-top: -22px;
+    height: 62px;
+    position: relative;
+    background: #ff6b00;
+    opacity: 0;
+  }
+
+  .hovbutt {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 17px;
+    padding-left: 104px;
+    padding-top: 6px;
+  }
+
+  .hovbutt {
+    color: #ff6b00;
+  }
+
+  .hoverbutton:hover {
+    opacity: 5;
+    background-color: #fdfdfd;
+    border: 1px solid #ff6b00;
+    padding: 5px;
+  }
+
+  .hoverbutton:active {
+    background-color: #ff6b00;
+    color: #f4f5f7;
+    transform: scale(0.98);
+  }
+  
+  .hoverbutton:disabled {
+    background-color: #fff;
+  }
+
   .pro-para-text {
     width: 243px;
     margin-bottom: 50px;
@@ -1280,6 +1353,10 @@ footer {
     width: 316px;
     background-size: 100%;
     background-image: url(./images/card3.png);
+  }
+
+  #pro-images-3 .pro-para-text {
+    margin-top: 76px;
   }
 
   .card1 {
@@ -1301,6 +1378,10 @@ footer {
     background-size: 94%;
     width: 338px;
     background-image: url(./images/probackground.png);
+  }
+
+  #pro-images-4 .pro-para-text {
+    margin-bottom: 45px;
   }
 
   .pro-desktop {
@@ -1335,7 +1416,7 @@ footer {
     display: grid;
     justify-content: center;
     width: 100%;
-    margin-left: 337px;
+    margin-left: 259px;
     height: 1px;
   }
 
@@ -1346,6 +1427,10 @@ footer {
     width: 316px;
     background-size: 100%;
     background-image: url(./images/card3.png);
+  }
+
+  #pro-images-6 .pro-para-text {
+    margin-top: 76px;
   }
 
   .about-me {
@@ -1373,8 +1458,8 @@ footer {
 
   .about-me-para {
     padding-left: 90px;
-    width: 420px;
-    font-size: 14px;
+    width: 609px;
+    font-size: 20px;
     height: 148px;
     line-height: 32px;
   }
@@ -1385,7 +1470,7 @@ footer {
   }
 
   .line {
-    width: 650px;
+    width: 57%;
     position: relative;
     top: 135px;
   }
@@ -1395,6 +1480,7 @@ footer {
     justify-content: center;
     position: relative;
     top: 205px;
+    left: -152px;
   }
 
   .square-img {
@@ -1597,8 +1683,9 @@ footer {
 
   .footer-bottom {
     width: 96%;
-    display: block;
-    margin-left: 2px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 47px;
     margin-top: -296px;
   }
 
@@ -1635,4 +1722,3 @@ footer {
     position: relative;
     left: 320px;
   }
-}
