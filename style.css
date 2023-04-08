@@ -1276,28 +1276,6 @@ footer {
     background-image: url(./images/page2card2.png);
   }
 
-  #pro-images-3 .hoverbutton:hover {  
-    width: 330px;
-  }
-
-  #pro-images-4 .hoverbutton:hover {
-    width: 331px;
-  }
-
-  #pro-images-5 .hoverbutton:hover {
-    margin-left: -14px;
-    margin-top: -20px;
-    height: 65px;
-    width: 330px;
-  }
-
-  #pro-images-6 .hoverbutton:hover {
-    margin-top: -26px;
-    height: 65px;
-    width: 331px;
-  }
-  }
-
   .hoverbutton {
     display: flex;
     width: 327px;
@@ -1318,7 +1296,7 @@ footer {
     padding-top: 6px;
   }
 
-  .hovbutt {
+  .hovbutt:hover {
     color: #ff6b00;
   }
 
@@ -1334,7 +1312,7 @@ footer {
     color: #f4f5f7;
     transform: scale(0.98);
   }
-  
+
   .hoverbutton:disabled {
     background-color: #fff;
   }
@@ -1722,3 +1700,25 @@ footer {
     position: relative;
     left: 320px;
   }
+
+  #pro-images-3 .hoverbutton:hover {
+    width: 330px;
+  }
+
+  #pro-images-4 .hoverbutton:hover {
+    width: 331px;
+  }
+
+  #pro-images-5 .hoverbutton:hover {
+    margin-left: -14px;
+    margin-top: -20px;
+    height: 65px;
+    width: 330px;
+  }
+
+  #pro-images-6 .hoverbutton:hover {
+    margin-top: -26px;
+    height: 65px;
+    width: 331px;
+  }
+}
