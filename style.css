@@ -54,6 +54,53 @@ body {
   margin-right: 12%;
 }
 
+.mobile-div {
+  display: none;
+  position: absolute;
+  height: 687px;
+  left: 4px;
+  z-index: 98;
+  width: 382px;
+  background-color: #3c3a39;
+}
+
+.mobile-div ul {
+  width: 80%;
+  padding-top: 80px;
+  margin: 0px;
+}
+
+.mobile-menu {
+  padding-top: 95px;
+  padding-left: 75px;
+}
+
+.mobile-div li a {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #FFF5E1;
+  text-decoration: none;
+}
+
+.mobile-div li {
+  margin-bottom: 13px;
+}
+
+.mobile-div hr {
+  background: #000;
+}
+
+#close-menu {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: -66px;
+  position: relative;
+  top: -24px;
+}
+
 .items {
   width: 20px;
   height: 3px;
@@ -993,6 +1040,10 @@ footer {
     left: 159px;
     position: relative;
   }
+
+  .mobile-div {
+    display: none !important;
+    }
 
   .nav1 {
     top: -32px;
