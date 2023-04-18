@@ -11,3 +11,8 @@ function open() {
   }
   document.getElementById('close-menu').addEventListener('click', close);
   
+// menu close when Items are clicked
+  
+  document.querySelectorAll('.menuItems').forEach((item) => {
+    item.addEventListener('click', close);
+  });
