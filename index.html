@@ -12,6 +12,17 @@
   <div class="wrapper">
 
   <!-- heading -->
+  <div class="mobile-div" id="mobile">
+    <ul id="Mobile-menu">
+      <li id="close-menu"><img onclick="close()" src="./images/vectorx.png" alt="close button"></li>
+      <li> <a class="menuItems" id="menu1" href="#portfolio">Portfolio</a></li>
+      <hr>
+      <li> <a class="menuItems" id="menu2" href="#about-section">About</a></li>
+      <hr>
+      <li> <a class="menuItems" id="menu3" href="#contact-section">Contact</a></li>
+      <hr>
+      </ul>
+  </div>
  <div class="topnav-bar">
   <header class="heading">
     
@@ -43,7 +54,7 @@
   <section id="background-main" class="main-page">
   <div>
     <div class="main-page-text">
-    <h1 class="main-text">Hey There. I'm sonika</h1>
+    <h1 class="main-text" id="mntxt">Hey There. I'm sonika</h1>
     <h2 class="profession">I'am a Software Developer</h2>
     <p class="main-description">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
       don't hestiate to contact me.</p>
@@ -88,7 +99,7 @@
  
     <!-- my recent works page -->
 
-  <section class="second-page">
+  <section class="second-page" id="portfolio">
     <div class="recent-div">
     <div class="second-page-div">
     <h2 class="second-heading">My Recent Works</h2>
@@ -263,7 +274,7 @@
 
       <!-- about me section -->
 
-     <section class="about-me">
+     <section class="about-me"  id="about-section">
       <div class="about-me-div">
       <h2 class="about-me-text">About me</h2>
       <p class="about-me-para">Hello I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hestiate to contact me.</p>
@@ -318,7 +329,7 @@
       </ul>
       <footer class="footer-bottom">
         <div class="contact-me">
-          <h2 class="contact-me-para">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
+          <h2 class="contact-me-para"  id="contact-section">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
         </div>
         
         <form method="POST" action="https://formspree.io/f/xzbqpdra">
@@ -376,7 +387,8 @@
             <hr class="footer-line foot">
         </footer>
    </section>
-
+   <script src="index.js">
+  </script>
 </div>
 </body>
 </html>
