@@ -67,7 +67,8 @@ body {
 .mobile-div ul {
   width: 80%;
   padding-top: 80px;
-  margin: 0px;
+  margin: 0
+  ;
 }
 
 .mobile-menu {
