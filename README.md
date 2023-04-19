@@ -10,8 +10,15 @@ yfeature-a
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
+       - [Tech Stack](#tech-stack)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
+       - [Setup](#setup)
+       - [Prerequisites](#prerequisites)
+       - [Install](#install)
+       - [Usage](#usage)
+       - [Run tests](#run-tests)
+       - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -25,10 +32,18 @@ yfeature-a
 
 
 ## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+
+<details>
+  <summary>HTML5 & CSS3 & Javascript</summary>
+</details>
+
 ### Key Features <a name="key-features"></a>
-- **[used linters]**
-- **[ HTML ]**
-- **[ CSS ]**
+- **Used Linters**
+- **HTML**
+- **CSS**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -41,7 +56,48 @@ https://sonikak004.github.io/sonika04.github.io/
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-You can use this to refer and build ur own
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
++ To have a prior knowledge of Linters, Git, HTML & CSS
++ Clone or fork the repository
++ A web browser (google chrome preferably)
++ A code editor (e.g vscode)
+
+
+### Setup
+
+Clone this repository to your desired folder:
+
+cd my-folder
+git clone https://github.com/Sonikak004/Portfolio.git
+
+
+### Install
+
+To install this project run this into your terminal:
+
++ git clone https://github.com/Sonikak004/Portfolio.git
+
+
+### Usage
+
+To run the project: 
++ double-click on the index.html file to open on your web browser
+
+
+### Run tests
+
+No test run is required as this website is built with just html5 & css3
+
+
+### Deployment
+
+You can deploy this project:
++ on any hosting services
+
 
 
 ## 👥 Authors <a name="authors"></a>
