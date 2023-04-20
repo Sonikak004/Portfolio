@@ -57,7 +57,7 @@ body {
 
 .modal-content {
   margin: 6%;
-  width: 73%;
+  width: 84%;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
   animation-name: modalopen;
   animation-duration: var(--modal-duration);
@@ -229,7 +229,7 @@ body {
 }
 
 .modal-body {
-  height: 440px;
+  height: 468px;
   padding: 95px 20px;
   background: #fff;
 }

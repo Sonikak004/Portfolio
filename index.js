@@ -480,15 +480,3 @@ window.addEventListener('click', outsideClick5);
 // pop up for cards 6
 
 const popUpBtn6 = document.querySelector('#see-pro-pop6');
-
-// Close If Outside Click
-function outsideClick6(e) {
-  if (e.target === modal) {
-    modal.style.display = 'none';
-  }
-}
-
-// Events
-popUpBtn6.addEventListener('click', () => getModal(6));
-// closePop6.addEventListener('click', closepopmodal6);
-window.addEventListener('click', outsideClick6);
