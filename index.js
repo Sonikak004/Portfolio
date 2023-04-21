@@ -506,3 +506,9 @@ function emailValidate() {
     );
   } else submitButton.setCustomValidity('');
 }
+email.addEventListener('input', () => {
+  emailValidate();
+});
+form.addEventListener('submit', () => {
+  emailValidate();
+});
