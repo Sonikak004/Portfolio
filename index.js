@@ -491,3 +491,24 @@ function outsideClick6(e) {
 popUpBtn6.addEventListener('click', () => getModal(6));
 // closePop6.addEventListener('click', closepopmodal6);
 window.addEventListener('click', outsideClick6);
+
+// Form Validation for E-mail
+
+const form = document.getElementsByTagName('form');
+const email = document.getElementById('email-text');
+const submitButton = document.getElementById('submit-form');
+function emailValidate() {
+  const emailExp = /^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$/;
+  const isNotValid = !emailExp.test(email.value);
+  if (isNotValid) {
+    submitButton.setCustomValidity(
+      `You should only use lowercase in the email field..!\nLike: ${email.value.toLowerCase()}`,
+    );
+  } else submitButton.setCustomValidity('');
+}
+email.addEventListener('input', () => {
+  emailValidate();
+});
+form.addEventListener('submit', () => {
+  emailValidate();
+});

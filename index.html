@@ -218,34 +218,37 @@
               you'd like to chat please get in touch.</h2>
           </div>
 
-          <form method="POST" action="https://formspree.io/f/xzbqpdra">
+          <form id="form" method="POST" action="https://formspree.io/f/xzbqpdra">
             <ul class="form-items-list">
-
-
               <li class="no-outline">
+                <label for="Fname">
                 <input class="Name" type="text" name="name" placeholder="Full Name" maxlength="30" required>
+              </label>
               </li>
               <li class="last-name">
+                <label for="Lname">
                 <input type="text" class="lname" name="last name" placeholder="Last Name" maxlength="30">
+              </label>
               </li>
-
               <li class="no-outline">
-                <input class="email" type="email" name="email" placeholder="Email Address" required>
+                <label for="email">
+                <input id="email-text" class="email" type="email" name="email" placeholder="Email Address" required>
+              </label>
               </li>
-
+                <p id="message"></p>
               <li>
+                <label for="message">
                 <textarea class="text-area" name="text-area" placeholder="Enter Text Here" cols="30" rows="4"
                   maxlength="500" required></textarea>
+                </label>
               </li>
-
               <li> <textarea class="text-area-desktop" name="text-area"
                   placeholder="Hello Mariane. I would like to get in touch with you..." cols="30" rows="4"
                   maxlength="500"></textarea>
               </li>
-
               <!-- get in touch button -->
               <li>
-                <button type="submit" class="button4">Get In Touch</button>
+                <button type="submit" id="submit-form" class="button4">Get In Touch</button>
               </li>
             </ul>
           </form>
