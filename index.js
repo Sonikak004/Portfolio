@@ -140,7 +140,7 @@ const modal = document.querySelector('#my-modal');
 const modalBtn = document.querySelector('#project-button');
 
 // Close
-function closeModal() {
+const closeModal = () => {
   modal.style.display = 'none';
 }
 
@@ -206,7 +206,7 @@ for (let i = 0; i <= 6; i += 1) {
 
 
 // Close If Outside Click
-function outsideClick(e) {
+const outsideClick = (e) => {
   if (e.target === modal) {
     modal.style.display = 'none';
   }
@@ -428,7 +428,7 @@ const popUpBtn = document.querySelector('#see-pro-pop');
 // Close
 
 // Close If Outside Click
-function outsideClick1(e) {
+const outsideClick1 = (e) => {
   if (e.target === modal) {
     modal.style.display = 'none';
   }
@@ -446,7 +446,7 @@ const popUpBtn2 = document.querySelector('#see-pro-pop2');
 // Open
 
 // Close If Outside Click
-function outsideClick2(e) {
+const outsideClick2 = (e) => {
   if (e.target === modal) {
     modal.style.display = 'none';
   }
@@ -462,7 +462,7 @@ window.addEventListener('click', outsideClick2);
 const popUpBtn3 = document.querySelector('#see-pro-pop3');
 
 // Close If Outside Click
-function outsideClick3(e) {
+const outsideClick3 = (e) => {
   if (e.target === modal) {
     modal.style.display = 'none';
   }
@@ -478,7 +478,7 @@ window.addEventListener('click', outsideClick3);
 const popUpBtn4 = document.querySelector('#see-pro-pop4');
 
 // Close If Outside Click
-function outsideClick4(e) {
+const outsideClick4 = (e) => {
   if (e.target === modal) {
     modal.style.display = 'none';
   }
@@ -494,7 +494,7 @@ window.addEventListener('click', outsideClick4);
 const popUpBtn5 = document.querySelector('#see-pro-pop5');
 
 // Close If Outside Click
-function outsideClick5(e) {
+const outsideClick5 = (e) => {
   if (e.target === modal) {
     modal.style.display = 'none';
   }
@@ -509,7 +509,7 @@ window.addEventListener('click', outsideClick5);
 
 const popUpBtn6 = document.querySelector('#see-pro-pop6');
 // Close If Outside Click
-function outsideClick6(e) {
+const outsideClick6 = (e) => {
   if (e.target === modal) {
     modal.style.display = 'none';
   }
