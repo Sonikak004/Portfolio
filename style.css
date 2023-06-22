@@ -1352,8 +1352,8 @@ footer {
   }
 
   .nav-icon {
-    top: -41px;
-    left: 159px;
+    top: -37px;
+    left: 143px;
     position: relative;
   }
 
@@ -1548,8 +1548,8 @@ footer {
 
   .page2-line {
     top: -128px;
-    left: 358px;
-    width: 68%;
+    left: 73%;
+    width: 69%;
     position: relative;
   }
 
@@ -1576,7 +1576,7 @@ footer {
     margin-left: 835px;
     top: -621px;
     display: flex;
-    width: 43%;
+    width: 64%;
     flex-direction: column;
   }
 
@@ -1603,6 +1603,7 @@ footer {
 
   .recent-div {
     margin-left: -73px;
+    width: 68%;
   }
 
   .languages {
@@ -1682,6 +1683,7 @@ footer {
   }
 
   .project-cards {
+    width: 64%;
     display: flex;
     justify-content: flex-start;
   }
@@ -1690,10 +1692,16 @@ footer {
     display: none;
   }
 
+  .text-div-top {
+    width: 50%;
+  }
+
   .pop-window-desk {
     display: flex;
-    top: 16px;
     position: relative;
+    top: 24px;
+    width: 49%;
+    left: 32px;
   }
 
   .pop-tech-but {
@@ -1705,7 +1713,8 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     top: 1675px;
-    left: 101px;
+    left: -15px;
+    width: 80%;
   }
 
   .pop-card4 {
@@ -1724,7 +1733,7 @@ footer {
     color: black;
     left: 202px;
     height: 35px;
-    width: 113px;
+    width: 59px;
   }
 
   .modal-body {
@@ -1770,7 +1779,7 @@ footer {
     position: relative;
     left: 681px;
     width: 28%;
-    top: -455px;
+    top: -410px;
   }
 
   .head-mob {
@@ -1819,7 +1828,7 @@ footer {
   .pro-img3-desk {
     position: relative;
     top: -594px;
-    left: -121px;
+    left: -56px;
     height: 393px;
     width: 316px;
     background-size: 100%;
@@ -1841,7 +1850,7 @@ footer {
     position: relative;
     top: -572px;
     top: -576px;
-    left: -454px;
+    left: -391px;
     height: 370px;
     background-size: 100%;
     width: 324px;
@@ -2127,6 +2136,7 @@ footer {
 
   .contact-me {
     padding-left: 88px;
+    width: 349px;
     justify-content: flex-start;
   }
 
@@ -2222,11 +2232,12 @@ footer {
   .social-media-dark {
     position: relative;
     top: 67px;
+    width: 0;
     padding-left: 350px;
   }
 
   .footer-bottom {
-    width: 96%;
+    width: 0;
     display: block;
     margin-left: 2px;
     margin-top: -296px;
@@ -2266,12 +2277,5 @@ footer {
 
   .heading-text:hover {
     transform: scale(1.2);
-  }
-
-  .nav-icon:hover {
-    transform: translateY(-10px);
-    top: -49px;
-    width: 72px;
-    left: 153px;
   }
 }
