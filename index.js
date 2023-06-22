@@ -148,7 +148,7 @@ const popupVar = document.querySelector('#my-modal');
 
 for (let i = 0; i <= 6; i += 1) {
   let loaded = false;
-  function getModal(dataId) {
+  const getModal = (dataId) => {
     const popCard = `
   <div class="modal-content">
     <div class="modal-header">
@@ -202,8 +202,8 @@ for (let i = 0; i <= 6; i += 1) {
     loaded = true;
   }
 
-getModal(0)
-};
+  getModal(0);
+
 
 // Close If Outside Click
 function outsideClick(e) {
@@ -213,7 +213,7 @@ function outsideClick(e) {
 }
 
 // Events
-modalBtn.addEventListener('click', () => getModal(0));
+modalBtn.addEventListener('click', () => getModal(0))
 window.addEventListener('click', outsideClick);
 
 // pop-end
@@ -540,3 +540,4 @@ email.addEventListener('input', () => {
 form.addEventListener('submit', () => {
   emailValidate();
 });
+};
