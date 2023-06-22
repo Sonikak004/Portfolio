@@ -525,7 +525,7 @@ window.addEventListener('click', outsideClick6);
 const form = document.getElementsByTagName('form');
 const email = document.getElementById('email-text');
 const submitButton = document.getElementById('submit-form');
-function emailValidate() {
+const emailValidate = () => {
   const emailExp = /^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$/;
   const isNotValid = !emailExp.test(email.value);
   if (isNotValid) {
