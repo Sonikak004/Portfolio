@@ -147,9 +147,9 @@ function closeModal() {
 const popupVar = document.querySelector('#my-modal');
 
 for (let i = 0; i <= 6; i += 1) {
-let loaded = false;
-function getModal(dataId) {
-  const popCard = `
+  let loaded = false;
+  function getModal(dataId) {
+    const popCard = `
   <div class="modal-content">
     <div class="modal-header">
     <h3 class="modal-head-text dflex">${proCards[dataId].headingPop}</h3>
@@ -193,16 +193,17 @@ function getModal(dataId) {
     </div>
   </div>`;
 
-  popupVar.innerHTML = popCard;
+    popupVar.innerHTML = popCard;
 
-  popupVar.querySelector('#popclose')
-    . addEventListener('click', closeModal);
+    popupVar.querySelector('#popclose')
+      . addEventListener('click', closeModal);
 
-  if (loaded) popupVar.style.display = 'block';
-  loaded = true;
-}}
+    if (loaded) popupVar.style.display = 'block';
+    loaded = true;
+  }
 
-getModal(0);
+getModal(0)
+};
 
 // Close If Outside Click
 function outsideClick(e) {
